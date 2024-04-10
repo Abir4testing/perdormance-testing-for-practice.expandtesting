@@ -1,0 +1,28 @@
+﻿8598,612,1,1,https://practice.expandtesting.com/login,1018,0,155
+8598,612,2,2,https://practice.expandtesting.com/login,590,0,109
+8598,612,3,3,https://practice.expandtesting.com/login,616,0,107
+8683,1658,3,3,https://practice.expandtesting.com/secure,376,0,109
+722,823,3,3,https://practice.expandtesting.com/authenticate,376,0,109
+7961,835,3,3,https://practice.expandtesting.com/secure,262,0,0
+17281,2270,3,3,null,1394,12176,264
+8683,1658,2,2,https://practice.expandtesting.com/secure,601,0,104
+722,823,2,2,https://practice.expandtesting.com/authenticate,601,0,104
+7961,835,2,2,https://practice.expandtesting.com/secure,275,0,0
+17281,2270,2,2,null,1191,12617,213
+2781,0,1,1,https://practice.expandtesting.com/authenticate,0,0,21044
+11379,612,1,1,null,616,11367,21151
+1712482512761,614,https://practice.expandtesting.com/login,200,OK,Thread Group 1-1,text,true,,8598,612,1,1,https://practice.expandtesting.com/login,614,0,115
+1712482516864,607,https://practice.expandtesting.com/authenticate,200,OK,Thread Group 1-1,text,true,,8683,1658,2,2,https://practice.expandtesting.com/secure,281,0,0
+1712482516864,281,https://practice.expandtesting.com/authenticate-0,302,Found,Thread Group 1-1,text,true,,722,823,2,2,https://practice.expandtesting.com/authenticate,281,0,0
+1712482517145,326,https://practice.expandtesting.com/authenticate-1,200,OK,Thread Group 1-1,text,true,,7961,835,2,2,https://practice.expandtesting.com/secure,309,0,0
+1712482512760,1221,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,17281,2270,2,2,null,895,3492,115
+1712482519425,459,https://practice.expandtesting.com/login,200,OK,Thread Group 1-3,text,true,,8598,612,2,2,https://practice.expandtesting.com/login,416,0,131
+1712482521766,617,https://practice.expandtesting.com/authenticate,200,OK,Thread Group 1-3,text,true,,9668,1678,2,2,https://practice.expandtesting.com/login,275,0,0
+1712482521766,275,https://practice.expandtesting.com/authenticate-0,302,Found,Thread Group 1-3,text,true,,683,827,2,2,https://practice.expandtesting.com/authenticate,275,0,0
+1712482522041,342,https://practice.expandtesting.com/authenticate-1,200,OK,Thread Group 1-3,text,true,,8985,851,2,2,https://practice.expandtesting.com/login,275,0,0
+1712482519424,1076,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,18266,2290,2,2,null,691,1884,131
+1712482516092,21045,https://practice.expandtesting.com/login,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to practice.expandtesting.com:443 [practice.expandtesting.com/66.241.125.119] failed: Connection timed out: connect,Thread Group 1-2,text,false,,2781,0,1,1,https://practice.expandtesting.com/login,0,0,21044
+1712482540641,881,https://practice.expandtesting.com/authenticate,200,OK,Thread Group 1-2,text,true,,8683,1573,1,1,https://practice.expandtesting.com/secure,604,0,110
+1712482540641,604,https://practice.expandtesting.com/authenticate-0,302,Found,Thread Group 1-2,text,true,,722,738,1,1,https://practice.expandtesting.com/authenticate,604,0,110
+1712482541245,277,https://practice.expandtesting.com/authenticate-1,200,OK,Thread Group 1-2,text,true,,7961,835,1,1,https://practice.expandtesting.com/secure,277,0,0
+1712482516091,21926,Test,,"Number of samples in transaction : 2, number of failing samples : 1",Thread Group 1-2,,false,,11464,1573,1,1,null,604,3505,21154
